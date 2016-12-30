@@ -31,7 +31,7 @@ app.post('/todos', (req, res) => {
 });
 
 app.get('/todos', (req, res) => {
-  Todo.find()
+  Todo.find().sort({ completed: 1, _id: -1 })
     .then((todos) => {
       res.send({ todos });
     })
