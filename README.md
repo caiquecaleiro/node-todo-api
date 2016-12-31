@@ -1,7 +1,7 @@
 # Node Todo API
 A NodeJS server with CRUD operations on MongoDB.
 
-**You're going to need to run the your mongod.exe.**
+**You're going to need to run your mongod.exe.**
 
 You can execute the following requests:
 - GET localhost:3000/todos
@@ -11,7 +11,7 @@ You can execute the following requests:
 - PATCH localhost:3000/todos/:id
 
 ## Full app
-You can run this server and then run this [app](https://github.com/caiquecaleiro/react-crud).
+You can run this server and then run this [project](https://github.com/caiquecaleiro/react-crud) together.
 
 ## Installation and usage
 
